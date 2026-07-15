@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testdata>
+
+	<login>
+		<userId>mngr663529</userId>
+		<password>dAnYzyh</password>
+	</login>
+
+	<customer>
+		<name>Anushka</name>
+		<dob>10-05-2002</dob>
+		<address>Mathura</address>
+		<city>Mathura</city>
+		<state>UP</state>
+		<pin>281001</pin>
+		<mobile>9876543210</mobile>
+		<email>anushka345@gmail.com</email>
+		<password>Test123</password>
+	</customer>
+
+	 <account>
+		<customerId>64952</customerId>
+		<accountType>Savings</accountType>
+		<initialDeposit>5000</initialDeposit>
+		<accountNo>184718</accountNo>
+	 </account>
+	
+	<deposit>
+    <accountNo>184718</accountNo>
+    <amount>2000</amount>
+    <description>Salary Deposit</description>
+	</deposit>
+
+	<withdrawal>
+    <accountNo>184718</accountNo>
+    <amount>1000</amount>
+    <description>ATM Withdrawal</description>
+	</withdrawal>
+
+	<balanceEnquiry>
+    <accountNo>184718</accountNo>
+	</balanceEnquiry>
+
+	<miniStatement>
+    <accountNo>184718</accountNo>
+	</miniStatement>
+
+</testdata>

@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Guru99 Bank Automation Suite">
+
+	<listeners>
+		<listener class-name="utils.TestListener"/>
+	</listeners>
+
+	<test name="Guru99 Bank Tests">
+
+		<classes>
+			<class name="tests.LoginTest"/>
+			<class name="tests.NewCustomerTest"/>
+			<class name="tests.NewAccountTest"/>
+			<class name="tests.DepositTest"/>
+			<class name="tests.WithdrawalTest"/>
+			<class name="tests.BalanceEnquiryTest"/>
+			<class name="tests.MiniStatementTest"/>
+		</classes>
+
+	</test>
+
+</suite>

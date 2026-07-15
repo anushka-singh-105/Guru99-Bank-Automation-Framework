@@ -1,0 +1,17 @@
+target/
+
+bin/
+
+.settings/
+
+.classpath
+
+.project
+
+*.log
+
+ExtentReport.html
+
+Screenshot/
+
+test-output/
