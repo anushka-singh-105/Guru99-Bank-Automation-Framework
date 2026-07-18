@@ -72,6 +72,11 @@ Guru99BankAutomation
 
 ---
 
+## CI/CD
+
+This project is integrated with Jenkins for Continuous Integration.
+Jenkins automatically pulls the latest code from GitHub and executes Maven TestNG automation tests.
+
 ## 📊 Reporting
 
 - HTML Extent Report

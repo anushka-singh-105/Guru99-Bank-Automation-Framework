@@ -28,8 +28,8 @@ public class LoginTest extends BaseTest{
 	
 	LoginPage lp=new LoginPage(driver);
 	
-	lp.enterUserId("mngr663529");
-	lp.enterPassword("dAnYzyh");
+	lp.enterUserId("mngr664280");
+	lp.enterPassword("tyrazyp");
 	lp.clickLogin();
 	
 	HomePage hp = new HomePage(driver);
